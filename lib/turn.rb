@@ -7,7 +7,7 @@ def display_board(board)
 end
 
 def turn(board)
-print "Please enter 1-9:"
+puts "Please enter 1-9:"
 input = gets.strip
 end
 
