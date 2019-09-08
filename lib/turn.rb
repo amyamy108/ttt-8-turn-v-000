@@ -7,10 +7,13 @@ def display_board(board)
 end
 
 def turn(board, index)
-prints "Please enter 1-9:"
+puts "Please enter a move 1-9:"
+input_to_index(input)
 if valid_move?(board,index)
     true
   else prints "Invalid move. Please enter 1 - 9:"
+end
+move(board, index, playercharacter = "X")
 end
 
 
@@ -44,4 +47,10 @@ def position_taken? (board, index)
   else board[index] == "X" || board[index] == "O"
     true
   end
+end
+
+counter = 0
+while counter < 8
+  puts "What's your next move?"
+  counter +=1
 end
