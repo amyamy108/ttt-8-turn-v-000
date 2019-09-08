@@ -14,6 +14,7 @@ if valid_move?(board, index)
   move(board, index, playercharacter = "X")
 else
   puts "That move is invalid. Please enter 1-9:"
+  inputs = gets.strip
 end
 end
 
