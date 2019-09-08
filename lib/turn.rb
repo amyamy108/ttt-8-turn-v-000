@@ -14,7 +14,6 @@ if valid_move?(board, index) == true
   display_board(board)
 else
   puts "Incorrect value"
-  turn(board)
 end
 end
 
