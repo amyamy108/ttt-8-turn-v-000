@@ -1,9 +1,8 @@
 #!/usr/bin/env ruby
 require_relative '../lib/turn.rb'
 
-puts "Welcome to Tic Tac Toe!"
+
 board =[" ", " ", " ", " ", " ", " ", " ", " ", " "]
-display_board
-puts "Where would you like to put your X? Please pick a number between 1 and 9,1 representing the upper left corner and 9 representing the lower right corner."
-input = gets.strip
+puts "Welcome to Tic Tac Toe!"
+display_board(board)
 turn(board,index,input)
