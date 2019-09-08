@@ -7,7 +7,7 @@ def display_board(board)
 end
 
 def turn(board, index)
-puts "Please enter a move 1-9:"
+puts "Please enter 1-9:"
 input_to_index(input)
 if valid_move?(board,index)
     true
