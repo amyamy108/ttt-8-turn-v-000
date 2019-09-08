@@ -11,6 +11,7 @@ puts "Please enter 1-9:"
 input = gets.strip
 input_to_index(input)
 
+display_board(board)
 end
 
 
