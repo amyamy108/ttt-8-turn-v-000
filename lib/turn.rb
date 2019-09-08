@@ -44,9 +44,3 @@ def position_taken? (board, index)
     true
   end
 end
-
-counter = 0
-while counter < 8
-  puts "What's your next move?"
-  counter +=1
-end
