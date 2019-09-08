@@ -8,6 +8,7 @@ end
 
 def turn(board)
 print "Please enter 1-9:"
+input = gets.strip
 end
 
 #inputs = gets.strip
