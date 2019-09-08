@@ -9,6 +9,10 @@ end
 def turn(board)
 print "Please enter 1-9:"
 input = gets.strip
+if input_to_index(input)
+  true
+else
+
 end
 
 
