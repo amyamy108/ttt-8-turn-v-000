@@ -10,11 +10,6 @@ def turn(board)
 prints "Please enter 1-9:"
 input = gets.strip
 input_to_index(input)
-if valid_move?(board,index)
-    true
-  else
-    prints "Invalid move. Please enter 1 - 9:"
-end
 move(board, index, playercharacter = "X")
 end
 
