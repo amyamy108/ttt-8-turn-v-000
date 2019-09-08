@@ -16,6 +16,7 @@ else
   puts "That move is invalid. Please enter 1-9:"
   inputs = gets.strip
 end
+display_board(board)
 end
 
 
